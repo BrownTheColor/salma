@@ -1,0 +1,113 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+#hero-section {
+background-image: url("img/sandiego.jpeg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment:fixed;                                  
+height:50vh;
+padding:450px;
+border:1px solid #030303;
+ }
+
+h1{
+  font-family: sans-serif;
+  color:#f9f6f8;
+  text-shadow: 2px 2px 4px #838181;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 5vh;
+
+}
+h2 {  
+  font-family: sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size:30px;
+  text-align:0 auto;
+}
+#avatar {
+  margin-top: auto;
+  vertical-align: middle;
+  border-radius: 50%;
+padding:2px;
+  
+}
+
+
+.carouselExampleDark{
+  carousel-control-color:white;
+  carousel-caption-color:#f0eaea;
+  carousel-control-opacity: .1s;
+}
+
+p {
+  color:#e8b321 ;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+}
+  
+h5 {
+color: #d719a4;
+}
+
+/* contact section below*/
+
+#contactsheet {
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #030303; 
+  background-color: gray;
+  margin-block-end: 0;
+}
+
+h3 {
+font-weight: 700;
+color:#f8f7f7;
+text-align: center;
+padding-top: 90px;
+margin-bottom:0;
+}
+
+
+.media {
+  margin-top: 20px;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-53%,-50%);
+  position: relative;
+}
+.wrapper{
+  list-style:none;
+  position: relative;
+  display:inline-block;
+  font-size: :20px;
+  padding: 20px 20px;
+  color:#fff;
+  transition: .5s;
+  
+}
+
+
+/*Media Icons */
+
+ .facebook:hover {
+    color:#292929;
+  transition: .5s;
+ }
+
+ .linkedin:hover{
+    color:#292929;
+  transition: .5s;
+ }
+
+.envelope:hover{
+   color:#292929;
+  transition: .5s;
+ }
+  /*end of contact session*/
